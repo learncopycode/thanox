@@ -2834,4 +2834,20 @@
 		window.document.addEventListener("DOMContentLoaded", self.onloadHandler);
 	}
 	
-	window.application = new Application();
+    window.application = new Application();
+    
+
+    <div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div><div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div><div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div><div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div>
+	
+	
+	<script>
+		
+		
+		</script>
+
+		<script>
+function myFunction() {
+  document.getElementById("myForm").submit();
+  alert("Thank you your query has been received we will get in touch with you shortly");
+}
+</script>
