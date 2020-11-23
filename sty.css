@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    background-color: white;
+}
+
+#BG_2880 {
+    mix-blend-mode: luminosity;
+    position: absolute;
+    width: 1920px;
+    height: 11875px;
+    left: 188px;
+    top: 0px;
+    overflow: visible;
+}
