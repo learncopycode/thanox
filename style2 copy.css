@@ -122,6 +122,7 @@
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
+			overflow-x: hidden;
 			border: none;
 		}
 		#with_scroller {
@@ -8930,27 +8931,31 @@
 		#Repeat_Grid_1 {
 			position: relative;
 			width: 100%;
-			height: 746px;
-		
-			top: 167px;
-		
-			overflow: hidden;
+			height: 597px;
+			top: 10vh;
+			overflow: scroll;
+			/* background-image: url(A1024.png); */
 		}
 		#Repeat_Grid_1_0 {
 			position: relative;
-			width: 100%;
+			max-width: 100%;
 			height: 730px;
 			left: 0px;
 			top: 0px;
-			overflow: visible;
+			overflow: scroll;
+			/* background-image: url(A1024.png); */
 		}
 		#Component_4__1 {
-			position: relative;
-			width: 100%;
-			height: 730px;
+			position: absolute;
+			min-width: 100%;
+			max-height: 69vh;
 			left: 0px;
-			top: 0px;
+			top: 0;
 			overflow: visible;
+			background-image: url(A1024.png);
+			background-position: top;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 		#Scroll_Group_3 {
 			mix-blend-mode: multiply;
@@ -8962,8 +8967,8 @@
 			overflow: hidden;
 		}
 		#A1024 {
-			position: absolute;
-			width: 100%;
+			position: relative;
+			max-width: 100%;
 			height: a;
 			left: 0px;
 			top: -183px;
@@ -28628,20 +28633,25 @@
 			overflow: visible;
 		}
 		#Group_878 {
-			position: absolute;
-			width: 1306px;
+			transform: scale(0.5);
+			z-index: 1213123213;
+			position: relative;
+			/* width: 1306px; */
+			width: 100%;
 			height: 113px;
-			left: 466px;
-			top: 1538px;
+			/* left: 466px; */
+			top: 0;
 			overflow: visible;
+			display: inline-block;
+			z-index: 10000;
 		}
 		#THANEX___TRAC-05_be {
-			position: absolute;
-			width: 344px;
-			height: 96.968px;
-			left: 962px;
-			top: 0px;
-			overflow: visible;
+			/* position: absolute; */
+			/* width: 344px; */
+			/* height: 96.968px; */
+			/* left: 962px; */
+			/* top: 0px; */
+			/* overflow: visible; */
 		}
 		#Path_1108_bf {
 			fill: rgba(90,159,214,1);
@@ -29412,27 +29422,29 @@
 			transform: matrix(1,0,0,1,0,0);
 		}
 		#Group_843 {
-			position: absolute;
-			width: 398.267px;
-			height: 113px;
-			left: 0px;
-			top: 0px;
-			overflow: visible;
+			position: relative;
+			/* width: 100%; */
+			/* display: inline-block; */
+			/* height: 113px; */
+			display: inline-block;
+			/* left: 0px; */
+			/* top: 0px; */
+			/* overflow: visible; */
 		}
 		#Group_842 {
-			position: absolute;
-			width: 398.267px;
-			height: 113px;
-			left: 0px;
-			top: 0px;
-			overflow: visible;
+			/* position: absolute; */
+			width: 100%;
+			/* height: 113px; */
+			/* left: 0px; */
+			/* top: 0px; */
+			/* overflow: visible; */
 		}
 		#Rectangle_159 {
 			opacity: 0.79;
 			fill: rgba(255,255,255,1);
 		}
 		.Rectangle_159 {
-			position: absolute;
+			position: relative;
 			overflow: visible;
 			width: 336.733px;
 			height: 42px;
